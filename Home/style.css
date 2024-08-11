@@ -1,0 +1,168 @@
+/* body{
+    background-image: url(abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner.jpg);
+} */
+
+body{
+    font-family: cursive;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 3rem;
+    color: white;
+    /* position: fixed; */
+    /* top: 0; */
+}
+
+nav{
+    background-color: #56b598;
+}
+
+.main-color{
+    color: #56b598;
+}
+
+.left{
+    justify-content: center;
+    /* align-items: center; */
+    font-size: 1.5rem;
+}
+
+.right{
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.list{
+    list-style: none;
+    padding: 0 40px;
+}
+
+.ul{
+    display: flex;
+    justify-content: center;
+}
+
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    height: 700px;
+}
+
+.leftSection{
+    font-size: 2.5rem;
+    font-family: cursive;
+    margin: 200px 0px 0px 50px;
+}
+
+.rightSection{
+    width: 43%;
+    margin: 100px 0px 0px 250px;
+}
+
+.img1{
+    width: 70%;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover{
+    color: hsl(162, 60%, 26%);
+    font-size: 1.05rem;
+}
+
+#element{
+    color: #56b598;
+}
+
+.second-first{
+    font-size: 2.7rem;
+    margin: 3px 0px 0px 200px;
+    font-family: cursive;
+}
+
+.thirdSection{
+    margin: 50px 0 0 0;
+    display: flex;
+    justify-content: space-around;
+    height: 450px;
+}
+
+.third-left{
+    /* width: auto; */
+    margin: 70px 0 0 50px;
+    font-family: cursive;
+}
+
+.third-right{
+    width: 600px;
+    margin: 0px 0px 0px 100px;
+}
+
+.third-right img{
+    width: 350px;
+    height: 300px;
+}
+
+.third-left-first{
+    height: 50px;
+}
+
+.third-left-second{
+    height: 50px;
+}
+
+.third-left-third{
+    height: 50px;
+}
+
+.third-left-fourth{
+    height: 50px;
+}
+
+.fourthSection{
+    height: 150px;
+    /* background-color: #13a979; */
+    color:#56b598;
+}
+
+.fourth-first{
+    position: absolute;
+    left: 43%;
+    height: 40px;
+    font-size: 2rem;
+}
+
+.fourth-second{
+    position: absolute;
+    left: 43%;
+    margin: 45px 0 0 0;
+}
+
+.fourth-third{
+    display: flex;
+    justify-content:center;
+    color: #dee6e4;
+}
+
+.fourth-third div{
+    margin: 80px 10px 0 10px;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.fourth-third div img{
+    height: 30px;
+    width: 30px;
+}
+
+.row{
+    width: 500px;
+}

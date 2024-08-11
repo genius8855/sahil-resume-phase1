@@ -1,0 +1,140 @@
+body{
+    font-family: cursive;
+}
+
+body hr{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 3rem;
+    color: white;
+}
+
+nav{
+    background-color: #56b598;
+}
+
+.main-color{
+    color: #56b598;
+}
+
+.left{
+    justify-content: center;
+    /* align-items: center; */
+    font-size: 1.5rem;
+}
+
+.right{
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.list{
+    list-style: none;
+    padding: 0 40px;
+}
+
+.ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover{
+    color: hsl(162, 60%, 26%);
+    font-size: 1.05rem;
+}
+
+#element{
+    color: #56b598;
+}
+
+
+/* Style for the resume section */
+.resume-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full screen height */
+    background-color: white;
+    padding: 20px;
+}
+
+.resume-container {
+    position: relative;
+    width: 80%; /* Adjust to control the width of the resume display */
+    height: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.resume-pdf {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.download-btn {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: #56b598;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+.download-btn:hover {
+    background-color: #449a86;
+}
+
+
+
+.button-1 {
+  background-color: #449a86;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-1:hover,
+.button-1:focus {
+  background-color: #F082AC;
+}
+
+.first-section{
+    height: 200px;
+}
